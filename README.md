@@ -1,2 +1,2 @@
 # D3experiments
-My learning experiments with D3.js
+Some of my experiments with D3.js
