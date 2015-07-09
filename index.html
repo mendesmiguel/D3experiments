@@ -5,7 +5,19 @@
     <title>D3 Experiments</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
     <style>
-        body {
+        .bar {
+            fill: steelblue;
+        }
+
+        .bar:hover {
+            fill: brown;
+        }
+
+        .title {
+            font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .axis {
             font: 10px sans-serif;
         }
 
@@ -19,18 +31,11 @@
         .x.axis path {
             display: none;
         }
-
-        .line {
-            fill: none;
-            stroke: steelblue;
-            stroke-width: 1.5px;
-        }
-
     </style>
 
 </head>
 <body>
-<script src="js/join.js"></script>
+<script src="js/wraplonglabels.js"></script>
 
 </body>
 </html>
